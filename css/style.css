@@ -77,16 +77,25 @@ body {
 .button {
   display: inline-block;
   font-family: inherit;
-  font-size: 16px;
-  line-height: 1.9;
   background-color: var(--title-text-color);
-  color: var(--white-color);
   cursor: pointer;
-  letter-spacing: 0.06em;
   border-radius: 4px;
-  padding: 10px 32px;
-  width: 216px;
+  min-width: 216px;
   height: 50px;
+  padding: 10px 32px;
+  border: 1px solid transparent;
+}
+
+.name-botton {
+  font-family: roboto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--white-color);
+  display: flex;
 }
 
 .button-secondary {
@@ -124,15 +133,21 @@ body {
 .hero {
   text-align: center;
   background: var(--background-color-hero-roof);
+  margin-bottom: 94px;
+  
 }
 
 .hero-title {
+  margin-top: 0;
+  margin-bottom: 35px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.35;
   color: var(--white-color);
   letter-spacing: 0.06em;
   text-transform: uppercase;
+
+  
 }
 
 /* advantges */
@@ -142,6 +157,7 @@ body {
   line-height: 1.16px;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
+  outline: tomato;
 }
 
 .project-section {
@@ -150,6 +166,8 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--second-text-color);
+  margin-bottom: 10px;
+
 }
 
 .feature-title {
@@ -213,6 +231,8 @@ body {
 
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 /* portfolio */
@@ -242,3 +262,5 @@ body {
   clip-path: inset(50%);
   margin: -1px;
 }
+
+
