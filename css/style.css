@@ -44,8 +44,8 @@ body {
   text-decoration: none;
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav :hover,
+.site-nav :focus {
   color: var(--title-text-color);
 }
 
