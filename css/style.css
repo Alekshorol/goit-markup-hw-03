@@ -99,6 +99,7 @@ body {
 }
 
 .button-secondary {
+  display: inline-block;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -120,6 +121,8 @@ body {
   cursor: pointer;
   border: 0em;
   border-radius: 4px;
+  width: 73px;
+  height: 38px;
 }
 
 .button-secondary:hover,
@@ -149,14 +152,6 @@ body {
 
 /* advantges */
 
-.section-title {
-  font-size: 36px;
-  line-height: 1.16px;
-  letter-spacing: 0.03em;
-  color: var(--second-text-color);
-  outline: tomato;
-}
-
 .project-section {
   font-size: 14px;
   line-height: 1.14;
@@ -164,20 +159,61 @@ body {
   text-transform: uppercase;
   color: var(--second-text-color);
   margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.advantges {
+  margin-bottom: 94px;
 }
 
 .feature-title {
   line-height: 1.71;
   color: var(--primary-text-color);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* work */
+
+.section-work-title {
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+.work-title {
+  margin-bottom: 94px;
+  margin-top: 0;
+}
+
+.work-list {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* personals */
+
+.section-team-title {
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+  margin-top: 0;
+  margin-bottom: 50px;
+}
 
 .team {
   color: var(--second-text-color);
   font-size: 36px;
   line-height: 1.17;
   background-color: var(--background-color-team);
+  padding-top: 186px;
+  padding-bottom: 94px;
 }
 
 .team-title {
@@ -186,6 +222,8 @@ body {
   line-height: 1.19;
   text-align: center;
   color: var(--second-text-color);
+  margin-bottom: 10px;
+  margin-top: 30px;
 }
 
 .team-discription {
@@ -193,10 +231,12 @@ body {
   line-height: 1.19;
   text-align: center;
   color: var(--primary-text-color);
+  margin-bottom: 30px;
 }
 
 .team-position {
   background-color: var(--white-color);
+  margin-bottom: 30px;
 }
 
 .contact-list {
@@ -238,6 +278,8 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--second-text-color);
+  margin-top: 20px;
+  margin-bottom: 4px;
 }
 
 .project-text {
