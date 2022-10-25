@@ -134,7 +134,6 @@ body {
   text-align: center;
   background: var(--background-color-hero-roof);
   margin-bottom: 94px;
-  
 }
 
 .hero-title {
@@ -146,8 +145,6 @@ body {
   color: var(--white-color);
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
-  
 }
 
 /* advantges */
@@ -167,7 +164,6 @@ body {
   text-transform: uppercase;
   color: var(--second-text-color);
   margin-bottom: 10px;
-
 }
 
 .feature-title {
@@ -262,5 +258,3 @@ body {
   clip-path: inset(50%);
   margin: -1px;
 }
-
-
