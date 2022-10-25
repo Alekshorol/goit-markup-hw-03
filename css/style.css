@@ -11,6 +11,10 @@
   --backgroun-color-button: #f5f4fa;
 }
 
+img {
+  display: block;
+}
+
 .studio {
   color: var(--studio-color);
 }
@@ -31,6 +35,13 @@ body {
   margin-right: auto;
   width: 1200px;
   outline: 2px solid tomato;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .logo {
@@ -86,27 +97,20 @@ body {
 /* button */
 
 .button {
+  font-family: roboto;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.06em;
+  font-size: 16px;
+  line-height: 1.88;
   display: inline-block;
-  font-family: inherit;
   background-color: var(--title-text-color);
   cursor: pointer;
   border-radius: 4px;
   min-width: 216px;
-  height: 50px;
   padding: 10px 32px;
   border: 1px solid transparent;
-}
-
-.name-botton {
-  font-family: roboto;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
   color: var(--white-color);
-  display: flex;
 }
 
 .button-secondary {
@@ -123,6 +127,7 @@ body {
 }
 
 .buttom-all {
+  display: inline-block;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -132,8 +137,6 @@ body {
   cursor: pointer;
   border: 0em;
   border-radius: 4px;
-  width: 73px;
-  height: 38px;
 }
 
 .button-secondary:hover,
