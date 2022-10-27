@@ -13,6 +13,8 @@
   --border-color-portfolio: #eeeeee;
   --shadov-color-team: 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+
+  --set-line-px: 30px;
 }
 
 /* utilite */
@@ -324,6 +326,26 @@ body {
   gap: 8px;
   flex-basis: calc((100%-32px) / 5);
   margin-bottom: 50px;
+}
+
+.card-set {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--set-line-px));
+  margin-left: calc(-1 * var(--set-line-px));
+  padding-bottom: 87px;
+}
+
+.card-set > .items {
+  flex-basis: calc(100% / 3 - var(--set-line-px));
+  margin-left: var(--set-line-px);
+  margin-top: var(--set-line-px);
+}
+
+.card-discription {
+  border: 1px solid var(--border-color-portfolio);
 }
 
 /* buttons */
