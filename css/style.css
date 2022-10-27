@@ -207,7 +207,7 @@ body {
   margin-bottom: 50px;
 }
 
-.work-title {
+.work-title-list {
   display: flex;
   gap: 30px;
   flex-basis: calc((100%-60) / 3);
