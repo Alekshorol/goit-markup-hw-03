@@ -52,15 +52,7 @@ body {
 }
 
 .page-header {
-  border-bottom: var(--line-color-header);
-}
-
-.line {
-  width: auto;
-  height: 80px;
-  left: 0px;
-  top: 0px;
-  border: 1px solid var(--line-color-header);
+  border-bottom: 1px solid var(--line-color-header);
 }
 
 .container {
@@ -158,6 +150,7 @@ body {
 .hero {
   text-align: center;
   background: var(--background-color-hero-roof);
+  padding: 200px 0;
 }
 
 .hero-title {
@@ -168,7 +161,7 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   width: 696px;
-  margin: 0 auto;
+  margin: 0 auto 30px;
 }
 
 /* advantges */
@@ -194,7 +187,11 @@ body {
 .advantges-item {
   display: flex;
   gap: 30px;
-  flex-basis: calc((100%-90px) / 4);
+  flex-basis: calc((100% - 90px) / 4);
+}
+
+.advantges {
+  padding-bottom: 0;
 }
 
 /* work */
@@ -238,6 +235,11 @@ body {
   padding-top: 186px;
 }
 
+.team-thumb {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .team-title {
   font-weight: 500;
   font-size: 16px;
@@ -246,8 +248,7 @@ body {
   color: var(--second-text-color);
   margin-bottom: 0;
   margin-top: 0;
-  padding-top: 30px;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .team-discription {
@@ -257,7 +258,6 @@ body {
   color: var(--primary-text-color);
   margin-bottom: 0;
   margin-top: 0;
-  padding-bottom: 30px;
 }
 
 .team-position {
@@ -280,10 +280,7 @@ body {
 
 .footer {
   background-color: var(--background-color-hero-roof);
-  padding-right: auto;
-  padding-left: auto;
-  display: flex;
-  flex-direction: column;
+  padding: 60px 0;
 }
 
 .roof-addres {
@@ -308,7 +305,7 @@ body {
 }
 
 .contact-list {
-  margin-bottom: 9px;
+  margin-top: 9px;
 }
 
 /* portfolio */
@@ -318,12 +315,16 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--second-text-color);
+  margin-bottom: 4px;
+  margin-top: 0;
 }
 
 .project-text {
   font-size: 16px;
   line-height: 1.88;
   color: var(--primary-text-color);
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .batton-projects {
@@ -343,7 +344,6 @@ body {
   flex-wrap: wrap;
   margin-top: calc(-1 * var(--set-line-px));
   margin-left: calc(-1 * var(--set-line-px));
-  padding-bottom: 87px;
 }
 
 .card-set > .items {
@@ -352,10 +352,10 @@ body {
   margin-top: var(--set-line-px);
 }
 
-.card-discription {
+.card-thumb {
   border: 1px solid var(--border-color-portfolio);
   border-top: none;
-  padding: 20px 24px 20px 24px;
+  padding: 20px 24px;
 }
 
 /* buttons */
